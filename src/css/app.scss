@@ -1,0 +1,28 @@
+// app global css in SCSS form
+
+.main-body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 411px) {
+  .homepage_heading_font {
+    font-size: 1.2rem !important;
+  }
+}
+
+.bordered-btn {
+  border-radius: 8px !important;
+}
+
+.textarea .q-field__control {
+  min-height: 150px !important;
+}
+
+.non-hover-btn .q-focus-helper {
+  position: static;
+  top: 0;
+  left: 0 /* rtl:ignore;; */;
+  width: 0% !important;
+  height: 0% !important;
+}
